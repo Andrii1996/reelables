@@ -3,12 +3,14 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+
   background-color: #e5e5e5;
 
   &__title {
     padding: 10px;
-    font-family: Oswald, Arial, sans-serif;
     width: 860px;
+
+    font-family: Oswald, Arial, sans-serif;
     font-size: 26px;
     line-height: 39px;
     text-transform: uppercase;
@@ -32,19 +34,21 @@
   }
 
   &__text {
-    font-family: Poppins, Arial, sans-serif;
     display: flex;
     align-items: center;
     text-align: left;
     width: 358px;
+
+    font-family: Poppins, Arial, sans-serif;
     font-size: 15px;
     line-height: 26px;
     letter-spacing: 0.01em;
   }
 
   &__images {
-    display: flex;
     position: relative;
+
+    display: flex;
   }
 
   &__position {
@@ -62,6 +66,7 @@
 
   &__logo {
     position: relative;
+
     transition: transform 0.4s;
 
     &:hover {

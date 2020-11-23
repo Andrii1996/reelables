@@ -1,9 +1,11 @@
 .title {
-  font-family: Oswald, Arial, sans-serif;
   width: 655px;
+
+  font-family: Oswald, Arial, sans-serif;
 
   &__first {
     width: 560px;
+
     background: #55cae8;
     color: white;
     font-weight: bold;
@@ -11,6 +13,7 @@
 
   &__second {
     width: 630px;
+
     font-weight: bold;
   }
 

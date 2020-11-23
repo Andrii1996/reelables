@@ -1,6 +1,7 @@
 .footer {
-  background: #514e55;
   padding: 30px 10px;
+
+  background: #514e55;
   color: rgba(81, 78, 85, 1);
 
   &__logo {
@@ -18,8 +19,9 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #757378;
     padding-bottom: 20px;
+
+    border-bottom: 1px solid #757378;
   }
 
   &__content {
@@ -54,11 +56,12 @@
     &__contact {
       display: flex;
       justify-content: space-around;
-      padding: 5px;
-      border: 1px solid rgba(255, 255, 255, 1);
-      border-radius: 22px;
       height: 33px;
       width: 100px;
+      padding: 5px;
+  
+      border: 1px solid rgba(255, 255, 255, 1);
+      border-radius: 22px;
     }
 
     &__try {
@@ -70,6 +73,7 @@
   &__info {
     width: 1500px;
     margin: 20px auto;
+
     color: rgba(117, 115, 120, 1);
   }
 }

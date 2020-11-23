@@ -1,19 +1,22 @@
 .working {
   padding: 50px;
-  background: #e5e5e5;
   text-align: center;
+
+  background: #e5e5e5;
 
   &__info {
     width: 635px;
     text-align: left;
     margin-left: 20px;
+
     font-family: Poppins, Arial, sans-serif;
   }
 
   &__title {
+    margin-bottom: 50px;
+
     font-family: Oswald, Arial, sans-serif;
     text-transform: uppercase;
-    margin-bottom: 50px;
     font-size: 26px;
     line-height: 39px;
     font-weight: bold;
@@ -21,6 +24,7 @@
 
   &__text {
     margin-bottom: 30px;
+
     font-size: 15px;
     line-height: 26px;
     letter-spacing: 0.01em;
@@ -37,6 +41,7 @@
     position: relative;
     width: 445px;
     height: 434px;
+
     background-color: #c4c4c4;
   }
 
@@ -45,10 +50,12 @@
     right: 300px;
     height: 431px;
     width: 431px;
+
     border-radius: 50%;
     background: linear-gradient(270deg,
     rgba(85, 202, 232, 0.07) 4.6%,
     rgba(196, 196, 196, 0) 93.97%);
+
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 1;
   }

@@ -22,14 +22,16 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 48px;
+
     text-transform: uppercase;
     letter-spacing: 0.01em;
   }
 
   &__text {
-    font-family: Poppins, Arial, sans-serif;
     width: 410px;
     text-align: left;
+
+    font-family: Poppins, Arial, sans-serif;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.01em;

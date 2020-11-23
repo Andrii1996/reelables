@@ -1,8 +1,10 @@
 .block {
-  color: white;
   display: flex;
   width: 1120px;
   flex-wrap: wrap;
+
+  color: white;
+
   cursor: pointer;
 
   &__info {
@@ -16,7 +18,6 @@
     rgba(85, 202, 232, 0.5) 0%,
     rgba(201, 232, 240, 0.08) 41.4%,
     rgba(85, 202, 232, 0) 100%);
-
     transition: box-shadow 0.3s;
     background-clip: padding-box;
     border: $border solid transparent;
@@ -42,20 +43,23 @@
   }
 
   &__title {
+    padding-bottom: 20px;
+
     font-family: Oswald, Arial, sans-serif;
     letter-spacing: 0.01em;
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 20px;
     z-index: 1;
   }
 
   &__text {
-    font-family: Poppins, Arial, sans-serif;
     padding: 5px;
+
+    font-family: Poppins, Arial, sans-serif;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.01em;
+
     z-index: 1;
   }
 }

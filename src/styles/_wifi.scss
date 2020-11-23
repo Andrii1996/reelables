@@ -1,5 +1,8 @@
 .wifi {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: linear-gradient(281.7deg,
   #302c34 11.23%,
   #59555d 42.92%,
@@ -7,13 +10,12 @@
   #232224 94.08%);
   border-radius: 4px;
   color: white;
-  align-items: center;
-  justify-content: center;
 
   &__logo {
     height: 512px;
     width: 500px;
     margin-left: 110px;
+
     background-image: url("../images/Free_Duct_Tape_Mockup_4\ 1.svg");
     background-position: center;
   }
@@ -24,6 +26,7 @@
 
   &__num {
     margin-right: 20px;
+
     font-family: Oswald, Arial, sans-serif;
     color: rgba(85, 202, 232, 1);
     font-size: 30px;
@@ -33,9 +36,10 @@
 
   &__item {
     width: 283px;
+    text-align: left;
+
     font-family: Poppins, Arial, sans-serif;
     color: rgba(255, 255, 255, 1);
-    text-align: left;
     font-size: 26px;
     line-height: 39px;
   }
