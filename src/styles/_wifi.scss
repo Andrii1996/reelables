@@ -1,6 +1,7 @@
 .wifi {
   display: flex;
   align-items: center;
+  text-align: center;
 
   background: linear-gradient(281.7deg,
   #302c34 11.23%,
@@ -15,7 +16,7 @@
   }
 
   &__info {
-    padding-left: 100px;
+    padding-left: 150px;
   }
 
   &__num {
