@@ -1,17 +1,13 @@
 .content {
-  // position: relative;
+  position: relative;
   display: flex;
   justify-content: space-between;
   width: 1055px;
 
-  &__logo {
-    position: absolute;
-    bottom: 1px;
-    left: 810px;
-    top: 1em;
-  }
-
   &__img {
     height: 550px;
+    position: absolute;
+    bottom: -130px;
+    left: 410px;
   }
 }
