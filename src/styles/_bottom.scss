@@ -1,0 +1,14 @@
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 22px;
+  background-color: #ced5d8;
+
+  &__text {
+    width: 650px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Poppins, Arial, sans-serif;
+    color: #2e2b32;
+  }
+}

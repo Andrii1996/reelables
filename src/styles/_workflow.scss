@@ -1,0 +1,26 @@
+.workflow {
+  background: linear-gradient(103.21deg,
+  #302c34 2.8%,
+  #59555d 26.3%,
+  #4a474f 37.81%,
+  #232224 92.31%);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px;
+
+  &__title {
+    font-size: 26px;
+  }
+
+  &__black {
+    color: white;
+  }
+
+  &__blue {
+    background-color: #55cae8;
+  }
+
+  &__block {
+    margin: 30px auto;
+  }
+}

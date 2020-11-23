@@ -1,7 +1,26 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "nav";
+@import "title";
+@import "content";
+@import "button";
+@import "bottom";
+@import "workflow";
+@import "block";
+@import "generated";
+@import "bluetooth";
+@import "working";
+@import "wifi";
+@import "contact";
+@import "footer";
 
-body {
-  background: $c-gray;
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

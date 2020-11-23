@@ -1,0 +1,21 @@
+.title {
+  font-family: Oswald, Arial, sans-serif;
+  width: 655px;
+
+  &__first {
+    width: 560px;
+    background: #55cae8;
+    color: white;
+    font-weight: bold;
+  }
+
+  &__second {
+    width: 630px;
+    font-weight: bold;
+  }
+
+  &__text {
+    font-family: Poppins, Arial, sans-serif;
+    white-space: pre-line;
+  }
+}

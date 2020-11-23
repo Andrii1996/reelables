@@ -1,0 +1,39 @@
+.nav {
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 15px;
+
+  &__list {
+    display: flex;
+    width: 542px;
+  }
+
+  &__item {
+    list-style: none;
+    flex-grow: 1;
+
+  }
+
+  &__link {
+    color: rgba(93, 103, 111, 1);
+    line-height: 22.5px;
+    transition: text-shadow 0.4s;
+
+    &:hover {
+      text-decoration: none;
+      text-shadow: 1px 2px 5px #006493;
+    }
+    
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border: 1px solid #55cae8;
+    border-radius: 22px;
+    height: 33px;
+    width: 100px;
+
+  }
+
+}
