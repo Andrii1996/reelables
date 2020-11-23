@@ -2,6 +2,8 @@
   font-family: Poppins, Arial, sans-serif;
   font-size: 15px;
 
+  z-index: 1;
+
   &__list {
     display: flex;
     width: 542px;
@@ -34,5 +36,7 @@
 
     border: 1px solid #55cae8;
     border-radius: 22px;
+
+    z-index: 1;
   }
 }

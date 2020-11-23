@@ -45,6 +45,7 @@
   
     transition: box-shadow 0.3s, color 0.3s;
     outline: none;
+    z-index: 1;
 
     &:hover {
       color: rgb(40, 233, 40);
