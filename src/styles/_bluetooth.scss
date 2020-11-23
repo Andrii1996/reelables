@@ -1,0 +1,37 @@
+.bluetooth {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  background: linear-gradient(281.7deg,
+  #302c34 11.23%,
+  #59555d 42.92%,
+  #4a474f 52.23%,
+  #232224 94.08%);
+  border-radius: 4px;
+  color: white;
+
+  &__info {
+    width: 710px;
+    padding-left: 30px;
+  }
+
+  &__title {
+    font-family: Oswald, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+  }
+
+  &__text {
+    font-family: Poppins, Arial, sans-serif;
+    width: 410px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+  }
+}

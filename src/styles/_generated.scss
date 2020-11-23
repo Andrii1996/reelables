@@ -1,0 +1,99 @@
+.generated {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #e5e5e5;
+
+  &__title {
+    padding: 10px;
+    font-family: Oswald, Arial, sans-serif;
+    width: 860px;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #2e2b32;
+    font-weight: 700;
+  }
+
+  &__blue {
+    background-color: rgba(74, 201, 243, 1);
+    color: white;
+  }
+
+  &__labels {
+    display: flex;
+    position: relative;
+
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+
+  }
+
+  &__text {
+    font-family: Poppins, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 358px;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+  }
+
+  &__images {
+    display: flex;
+    position: relative;
+  }
+
+  &__position {
+    position: absolute;
+  }
+
+  &__height {
+    height: 350px;
+  }
+
+  &__prod {
+    width: 400px;
+    text-align: left;
+  }
+
+  &__logo {
+    position: relative;
+    transition: transform 0.4s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &--point {
+      position: absolute;
+      bottom: 150px;
+    }
+
+    &--phone {
+      position: absolute;
+      right: 340px;
+      top: 90px;
+      height: 60%;
+      z-index: 2;
+    }
+
+    &--router1 {
+      position: absolute;
+      right: 210px;
+      top: 10px;
+      height: 80%;
+      z-index: 1;
+    }
+
+    &--router2 {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      height: 80%;
+    }
+  }
+}
